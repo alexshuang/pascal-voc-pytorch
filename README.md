@@ -1,8 +1,10 @@
+# 搞定目标检测（SSD篇）
+
 ![](https://upload-images.jianshu.io/upload_images/13575947-08e4cd04dd185415.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-通过对[搞定目标检测（SSD篇）（上）](https://www.jianshu.com/p/8d894605bb06)的学习，你应该已经了解目标检测的基本原理和技术局限性，本文将会详解如何实现SSD目标检测模型。先打个预防针，本文的内容会比较烧脑，而且默认你已经掌握了[上集](https://www.jianshu.com/p/8d894605bb06)的内容，当然我也会用平实的语言尽力给你讲清楚。Github: [xxxx]()。
+通过对[搞定目标检测（SSD篇）（上）](https://www.jianshu.com/p/8d894605bb06)的学习，你应该已经了解目标检测的基本原理和技术局限性，本文将会详解如何实现SSD目标检测模型。先打个预防针，本文的内容会比较烧脑，而且默认你已经掌握了[上集](https://www.jianshu.com/p/8d894605bb06)的内容，当然我也会用平实的语言尽力给你讲清楚。Github: [https://github.com/alexshuang/pascal-voc-pytorch/blob/master/pascal_voc2012_ssd.ipynb](https://github.com/alexshuang/pascal-voc-pytorch/blob/master/pascal_voc2012_ssd.ipynb)。
 
-## SSD / [Paper](https://arxiv.org/abs/1512.02325) / [Notebook]()
+## SSD / [Paper](https://arxiv.org/abs/1512.02325) / [Notebook](https://github.com/alexshuang/pascal-voc-pytorch/blob/master/pascal_voc2012_ssd.ipynb)
 
 从SSD的全称，Single Shot MultiBox Detector，就可以窥探算法的本质：“Single Shot”指的是单目标检测，“MultiBox”中的“Box”就像是我们平时拍摄时用到的取景框，只关注框内的画面，屏蔽框外的内容。创建“Multi”个"Box"，将每个"Box"的单目标检测结果汇总起来就是多目标检测。换句话说，SSD将图像切分为N片，并对每片进行独立的单目标检测，最后汇总每片的检测结果。
 
