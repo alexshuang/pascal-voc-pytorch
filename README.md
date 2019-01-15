@@ -2,7 +2,7 @@
 
 ![](https://upload-images.jianshu.io/upload_images/13575947-08e4cd04dd185415.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-通过对[搞定目标检测（SSD篇）（上）](https://www.jianshu.com/p/8d894605bb06)的学习，你应该已经了解目标检测的基本原理和技术局限性，本文将会详解如何实现SSD目标检测模型。先打个预防针，本文的内容会比较烧脑，而且默认你已经掌握了[上集](https://www.jianshu.com/p/8d894605bb06)的内容，当然我也会用平实的语言尽力给你讲清楚。Github: [https://github.com/alexshuang/pascal-voc-pytorch/blob/master/pascal_voc2012_ssd.ipynb](https://github.com/alexshuang/pascal-voc-pytorch/blob/master/pascal_voc2012_ssd.ipynb)。
+通过对[搞定目标检测（SSD篇）（上）](https://www.jianshu.com/p/8d894605bb06)的学习，你应该已经了解目标检测的基本原理和技术局限性，本文将会详解如何实现SSD目标检测模型。先打个预防针，本文的内容会比较烧脑，而且默认你已经掌握了[上集](https://www.jianshu.com/p/8d894605bb06)的内容，当然我也会用平实的语言尽力给你讲清楚。Github: [https://github.com/alexshuang/pascal-voc-pytorch](https://github.com/alexshuang/pascal-voc-pytorch)。
 
 ## SSD / [Paper](https://arxiv.org/abs/1512.02325) / [Notebook](https://github.com/alexshuang/pascal-voc-pytorch/blob/master/pascal_voc2012_ssd.ipynb)
 
